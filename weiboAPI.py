@@ -9,7 +9,7 @@ sys.setdefaultencoding('utf-8')
 
 APP_KEY = '你的App Key ' #获取的App Key 
 APP_SECRET = '你的AppSecret' #获取的AppSecret 
-CALLBACK_URL = 'https://api.weibo.com/oauth2/default.html' #回调链接 
+CALLBACK_URL = 'https://overseas.weibo.com/index' #回调链接 
 
 client = APIClient(app_key=APP_KEY, app_secret=APP_SECRET, redirect_uri=CALLBACK_URL) 
 url = client.get_authorize_url() 
